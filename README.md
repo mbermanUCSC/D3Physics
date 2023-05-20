@@ -19,4 +19,6 @@ GameScene3<br><br>
 
 
 Other:<br>
-IntroScene & OutroScene<br>
+IntroScene & OutroScene<br><br>
+
+All assets created in Adobe Illustrator.
