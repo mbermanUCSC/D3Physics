@@ -1,3 +1,9 @@
+// ------------------------------------------
+// Physics Coin Collector game using Phaser
+// Miles Berman
+// D3
+// ------------------------------------------
+
 class IntroScene extends Phaser.Scene {
     constructor() {
         super({ key: 'IntroScene' });
@@ -47,7 +53,7 @@ class GameScene1 extends Phaser.Scene {
             loop: true
         });
 
-        this.time.delayedCall(25000, () => { this.scene.start('GameScene2'); }, [], this);
+        this.time.delayedCall(25000, () => { this.scene.start('GameScene2'); }, [], this); // go to scene 2 after 25000 milliseconds
     }
 
     spawnCircle() {
@@ -98,7 +104,7 @@ class GameScene2 extends Phaser.Scene {
             loop: true
         });
 
-        this.time.delayedCall(25000, () => { this.scene.start('GameScene3'); }, [], this);
+        this.time.delayedCall(25000, () => { this.scene.start('GameScene3'); }, [], this); // go to scene 3 after 25000 milliseconds
     }
 
     spawnCircle() {
@@ -159,7 +165,7 @@ class GameScene3 extends Phaser.Scene {
             loop: true
         });
 
-        this.time.delayedCall(25000, () => { this.scene.start('OutroScene'); }, [], this);
+        this.time.delayedCall(25000, () => { this.scene.start('OutroScene'); }, [], this); // end game after 25000 milliseconds
     }
 
     spawnCircle() {
@@ -198,7 +204,7 @@ class OutroScene extends Phaser.Scene {
         this.add.text(200, 300, 'Press SPACE to restart the game', { fontSize: '20px', fill: '#000' });
 
         this.input.keyboard.on('keydown-SPACE', () => {
-            this.scene.start('GameScene1');
+            this.scene.start('GameScene1'); // loops back to scene 1
         });
     }
 }
