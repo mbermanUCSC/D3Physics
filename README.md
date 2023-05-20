@@ -1,12 +1,9 @@
 # D3Physics
-A physics game built in phaser
+A physics game built in phaser <br>
 
-
-Player Inputs: 
-
-Space Bar to start
-
-Left & Right Arrow Keys for movement
+Player Inputs: <br>
+Space Bar to start <br>
+Left & Right Arrow Keys for movement <br><br>
 
 
 Physics:
