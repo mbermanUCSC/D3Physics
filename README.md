@@ -6,24 +6,17 @@ Space Bar to start <br>
 Left & Right Arrow Keys for movement <br><br>
 
 
-Physics:
-
-Falling coins
-
-Bouncing coins
-
-Bucket movement
+Physics:<br>
+Falling coins<br>
+Bouncing coins<br>
+Bucket movement<br><br>
 
 
-Physics Scenes:
-
-GameScene1
-
-GameScene2
-
-GameScene3
+Physics Scenes:<br>
+GameScene1<br>
+GameScene2<br>
+GameScene3<br><br>
 
 
-Other:
-
-IntroScene & OutroScene
+Other:<br>
+IntroScene & OutroScene<br>
