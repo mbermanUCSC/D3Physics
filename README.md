@@ -1,6 +1,6 @@
 # D3Physics
 A physics game built in phaser <br>
-https://mbermanucsc.github.io/D3Physics/ <br> <br>
+https://mbermanucsc.github.io/D3Physics/ <--- Play Link <br> <br>
 
 Player Inputs: <br>
 Space Bar to start <br>
